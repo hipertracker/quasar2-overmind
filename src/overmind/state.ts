@@ -3,9 +3,7 @@ type State = {
   counter: number;
 };
 
-const state: State = {
+export const state: State = {
   welcome: 'Quasar 2 + TypeScript + Overmind',
   counter: 0,
 };
-
-export default state;
