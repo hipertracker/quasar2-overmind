@@ -1,12 +1,14 @@
-import { IConfig, IOnInitialize, IContext } from 'overmind';
-import { createHooks } from 'overmind-vue/vue3';
-
-import { state } from './state';
 import * as actions from './actions';
+
+import { IConfig, IContext, IOnInitialize } from 'overmind';
+
+import { createHooks } from 'overmind-vue/vue3';
+import { state } from './state';
 
 export const config = {
   state,
   actions,
+  effects: {},
 };
 
 // Due to circular typing we have to define an
@@ -15,7 +17,7 @@ export const config = {
 export type Config = IConfig<{
   state: typeof config.state;
   actions: typeof config.actions;
-  // effects: typeof config.effects;
+  effects: typeof config.effects;
 }>;
 
 export type OnInitialize = IOnInitialize<Config>;

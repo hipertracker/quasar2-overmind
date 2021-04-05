@@ -1,4 +1,4 @@
-import { Context } from 'overmind';
+import { Context } from '../overmind';
 
 export const inc = ({ state }: Context): void => {
   state.counter += 1;
