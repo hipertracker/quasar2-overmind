@@ -38,6 +38,10 @@ See [Configuring quasar.conf.js](https://v2.quasar.dev/quasar-cli/quasar-conf-js
 
 Overmind DevTools: <https://overmindjs.org/core/devtools>
 
+As standalone Electron app:
+
 ```
 npx overmind-devtools@latest
 ```
+
+or [Overmind Devtools VSCode](https://marketplace.visualstudio.com/items?itemName=christianalfoni.overmind-devtools-vscode) extension
