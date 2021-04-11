@@ -1012,14 +1012,14 @@
   resolved "https://registry.yarnpkg.com/@positron/stack-trace/-/stack-trace-1.0.0.tgz#14fcc712a530038ef9be1ce6952315a839f466a8"
   integrity sha1-FPzHEqUwA475vhzmlSMVqDn0Zqg=
 
-"@quasar/app@^3.0.0-beta.13":
-  version "3.0.0-beta.13"
-  resolved "https://registry.yarnpkg.com/@quasar/app/-/app-3.0.0-beta.13.tgz#7e35e0561dcf8f1c4e9a62a9d76f9bcec540780c"
-  integrity sha512-OdqrXaArWy/juJIf40rr8cdU3qukwnrDJy4pkGebmONUg2Us3IzNLByVKd3C6yTK+qaA4gEIQ58liTHm+NZjfQ==
+"@quasar/app@^3.0.0-beta.15":
+  version "3.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/@quasar/app/-/app-3.0.0-beta.15.tgz#5c7d1857be0c500a8086e966576e315ec407d6a8"
+  integrity sha512-Mh5c2fd+TkjIJYsoVMBCyb0HTzj4+qM+Pw31ILKYwmWBqRwWq+u6+c2ElIYP9TypF9+/ycqgkcCwKL/7VhvvZA==
   dependencies:
     "@quasar/babel-preset-app" "2.0.1"
     "@quasar/fastclick" "1.1.4"
-    "@quasar/ssr-helpers" "1.0.0"
+    "@quasar/ssr-helpers" "1.1.0"
     "@types/cordova" "0.0.34"
     "@types/electron-packager" "14.0.0"
     "@types/express" "4.17.11"
@@ -1130,12 +1130,13 @@
   resolved "https://registry.yarnpkg.com/@quasar/fastclick/-/fastclick-1.1.4.tgz#21ed3e9a4387dcb43022a08af4ef08a5f1abf159"
   integrity sha512-i9wbyV4iT+v4KhtHJynUFhH5LiEPvAEgSnwMqPN4hf/8uRe82nDl5qP5agrp2el1h0HzyBpbvHaW7NB0BPrtvA==
 
-"@quasar/ssr-helpers@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@quasar/ssr-helpers/-/ssr-helpers-1.0.0.tgz#70f76ff6c22153c5ca566c6ada96c5e5ed8a2eb2"
-  integrity sha512-08mjEZDdzc0Lq47B+/vFPOTXamLte4Cy/lBmk7bieyTii/429ezavV4zWFT9sCEZN0P4HWFMI/YkERn5bwkokw==
+"@quasar/ssr-helpers@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@quasar/ssr-helpers/-/ssr-helpers-1.1.0.tgz#35165c5cd3f191299af1bea30b24f6d1b6667cbd"
+  integrity sha512-8aiMON41IW03o8mTbMecgTavB5RFL0FQiG8i2wtJNcQLQTu+v3XBM8k5Q+SeB/3FTPw7L/xpbZuaFk1iAra5Sg==
   dependencies:
     hash-sum "^2.0.0"
+    serialize-javascript "^5.0.1"
 
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
@@ -2235,9 +2236,9 @@ babel-plugin-polyfill-regenerator@^0.1.2:
     "@babel/helper-define-polyfill-provider" "^0.1.5"
 
 balanced-match@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
-  integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
+  integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
 base64-js@^1.0.2, base64-js@^1.3.1, base64-js@^1.5.1:
   version "1.5.1"
@@ -3093,9 +3094,9 @@ core-js-compat@^3.6.5, core-js-compat@^3.8.1, core-js-compat@^3.9.0:
     semver "7.0.0"
 
 core-js@^3.6.5:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.10.0.tgz#9a020547c8b6879f929306949e31496bbe2ae9b3"
-  integrity sha512-MQx/7TLgmmDVamSyfE+O+5BHvG1aUGj/gHhLn1wVtm2B5u1eVIPvh7vkfjwWKNCjrTJB8+He99IntSQ1qP+vYQ==
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.10.1.tgz#e683963978b6806dcc6c0a4a8bd4ab0bdaf3f21a"
+  integrity sha512-pwCxEXnj27XG47mu7SXAwhLP3L5CrlvCB91ANUkIz40P27kUcvNfSdvyZJ9CLHiVoKSp+TTChMQMSKQEH/IQxA==
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -3890,9 +3891,9 @@ eslint-visitor-keys@^2.0.0:
   integrity sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
 
 eslint@^7.14.0:
-  version "7.23.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.23.0.tgz#8d029d252f6e8cf45894b4bee08f5493f8e94325"
-  integrity sha512-kqvNVbdkjzpFy0XOszNwjkKzZ+6TcwCQ/h+ozlcIWwaimBBuhlQ4nN6kbiM2L+OjDcznkTJxzYfRFH92sx4a0Q==
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.24.0.tgz#2e44fa62d93892bfdb100521f17345ba54b8513a"
+  integrity sha512-k9gaHeHiFmGCDQ2rEfvULlSLruz6tgfA8DEn+rY9/oYPFFTlz55mM/Q/Rij1b2Y42jwZiK3lXvNTw6w6TXzcKQ==
   dependencies:
     "@babel/code-frame" "7.12.11"
     "@eslint/eslintrc" "^0.4.0"
@@ -4551,9 +4552,9 @@ globals@^12.1.0:
     type-fest "^0.8.1"
 
 globals@^13.6.0:
-  version "13.7.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-13.7.0.tgz#aed3bcefd80ad3ec0f0be2cf0c895110c0591795"
-  integrity sha512-Aipsz6ZKRxa/xQkZhNg0qIWXT6x6rD46f6x/PCnBomlttdIyAPak4YD9jTmKpZ72uROSMU87qJtcgpgHaVchiA==
+  version "13.8.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-13.8.0.tgz#3e20f504810ce87a8d72e55aecf8435b50f4c1b3"
+  integrity sha512-rHtdA6+PDBIjeEvA91rpqzEvk/k3/i7EeNQiryiWuJH0Hw9cpyJMAt2jtbAwUaRdhD+573X4vWw6IcjKPasi9Q==
   dependencies:
     type-fest "^0.20.2"
 
