@@ -1,3 +1,4 @@
+import '../shims';
 import { boot } from 'quasar/wrappers';
 import { config } from '../overmind';
 import { createOvermind } from 'overmind';

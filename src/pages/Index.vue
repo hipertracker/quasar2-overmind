@@ -1,6 +1,6 @@
 <template>
   <q-page class="row items-center justify-evenly">
-    <HelloWorld/>
+    <HelloWorld />
   </q-page>
 </template>
 
@@ -9,10 +9,8 @@ import HelloWorld from 'components/HelloWorld.vue';
 
 import { defineComponent } from 'vue';
 
-
 export default defineComponent({
   name: 'PageIndex',
   components: { HelloWorld },
-
 });
 </script>
