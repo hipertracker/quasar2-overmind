@@ -10,18 +10,18 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/extras": "^1.10.5",
+    "@quasar/extras": "^1.10.6",
     "axios": "^0.21.1",
     "buffer": "^6.0.3",
     "core-js": "^3.12.1",
     "overmind": "^27.0.0",
     "overmind-vue": "^27.0.0",
     "process": "^0.11.10",
-    "quasar": "^2.0.0-beta.18",
+    "quasar": "^2.0.0-rc.1",
     "vue-i18n": "^9.0.0-beta.0"
   },
   "devDependencies": {
-    "@quasar/app": "^3.0.0-beta.26",
+    "@quasar/app": "^3.0.0-rc.1",
     "@types/node": "^15.6.0",
     "@typescript-eslint/eslint-plugin": "^4.24.0",
     "@typescript-eslint/parser": "^4.24.0",
