@@ -1,12 +1,13 @@
 # Quasar 2 + Typescript + Overmind
 
-*This boilerplate uses older Overmind v27. For newer version go to https://github.com/hipertracker/overmind-boilerplate*
 
 Simple example of using Quasar 2 + TypeScript + Overmind with hooks
 
 - Quasar 2 <https://next.quasar.dev/>
 - Overmind <https://www.overmindjs.org/>
 - TypeScript <https://www.typescriptlang.org/>
+
+### DEPRECATED. This boilerplate uses older Overmind v27. For newer version go to https://github.com/hipertracker/overmind-boilerplate
 
 ## Install the dependencies
 
